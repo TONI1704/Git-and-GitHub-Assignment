@@ -2,15 +2,8 @@
   "items": [
     {
       "itemName": "Learn Git",
-      "itemDescription": "Practice Git commands"
-    },
-    {
-      "itemName": "Learn GitHub",
-      "itemDescription": "Practice GitHub repository"
-    },
-    {
-      "itemName": "Learn Flask",
-      "itemDescription": "Build Flask applications"
+      "itemDescription": "Learn Git basics"
+    
     }
   ]
 }
