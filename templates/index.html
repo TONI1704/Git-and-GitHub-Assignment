@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Git Assignment</title>
+    <title>To-Do Application</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>My Flask Project</h1>
-    <p>Git and GitHub Assignment</p>
+
+    <div class="container">
+        <h1>My To-Do List</h1>
+
+        <form id="todoForm">
+            <label>Item Name</label>
+            <input type="text" id="itemName"
+                   placeholder="Enter item name" required>
+
+            <label>Item Description</label>
+            <textarea id="itemDescription"
+                      placeholder="Enter item description"
+                      required></textarea>
+
+            <button type="submit">Add Item</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+
 </body>
 </html>
